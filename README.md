@@ -190,29 +190,6 @@ job_management_system/
 - **Axios** - HTTP client
 - **Context API** - State management
 
-## 🚀 Deployment
-
-### Backend Deployment (Heroku)
-1. Create a Heroku account
-2. Install Heroku CLI
-3. Create a new Heroku app
-4. Set environment variables in Heroku dashboard
-5. Deploy using Git:
-```bash
-cd backend
-heroku create your-app-name
-git add .
-git commit -m "Deploy backend"
-git push heroku main
-```
-
-### Frontend Deployment (Netlify/Vercel)
-1. Build the production version:
-```bash
-cd frontend
-npm run build
-```
-2. Deploy the `build` folder to your preferred hosting service
 
 ## 🔒 Security Features
 
